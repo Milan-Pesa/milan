@@ -1,0 +1,5 @@
+num1 = input("First number:")
+num2 = input("Second number:")
+num3 = input("Enter the number to multiply")
+result = int(num1) + int(num2) * int(num3)
+print(result)
