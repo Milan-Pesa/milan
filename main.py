@@ -1,5 +1,5 @@
-import requests
-substitute = "Milan"
-
-requests.post(
-    'https://api.telegram.org/bot5376100113:AAG45U2UdoIr4vjtrs37rUXDtf6N3TQRTEU/sendMessage?chat_id=-763937108&text=Yello %s' % substitute)
+num1 = input("First number:")
+num2 = input("Second number:")
+num3 = input("Enter the number to multiply")
+result = int(num1) + int(num2) * int(num3)
+print(result)
